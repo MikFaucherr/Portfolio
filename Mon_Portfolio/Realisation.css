@@ -1,0 +1,83 @@
+
+.pagep{display: grid; grid-template-rows: 5% 10% 85%; grid-template-rows: 60px;}
+
+
+@keyframes colochang
+{
+  10% {color: #0099ff;}
+  50% {color: #00ff00;}
+  75% {color: #ff3399;}
+  100% {color: #6666ff;}
+}
+
+.section1
+{background-image: url(../Mon_Portfolio/images/HD-wallpaper-laser-beams-ultra-artistic-abstract-purple-background-beams-laser.jpg);
+  display: grid;
+  grid-template-columns: 65% 35%; 
+  grid-template-rows: 1fr; 
+  grid-template-areas: 
+    ". .";
+}
+
+.partienonvide{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  grid-template-areas: 
+    ". . . .";
+    font-size: 25px;
+  color: aliceblue;
+}
+
+a {outline: none;text-decoration: none;}
+
+a:link {color:aliceblue;}
+
+a:visited {color: aliceblue;}
+
+a:hover{animation: colochang 0.5s linear infinite ;}
+
+#image{width: 200px; height: 240px;}
+
+.laveodon{
+    margin-top: 80px;
+    border: rgb(28, 7, 94) solid 4px;
+    border-radius: 15px;
+    width: 725px;
+    background-image: url(../Mon_Portfolio/images/modern-futuristic-neon-purple-background-free-vector.webp);
+    color: white;
+  }
+
+.section2
+{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 62px 71px; 
+    grid-template-areas: 
+      ". ."
+      ". ."; 
+      background-image: url(../Mon_Portfolio/images/p_1001519688.webp);
+  }
+
+  .section15
+  {
+    font-size: 45, px;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    background-image: url(../Mon_Portfolio/images/p_1001519688.webp);
+  }
+
+#image2
+{
+  width: 500px;
+}
+
+.titre{
+  font-size: 60px;
+}
+
+#image
+{
+  height: 290px;
+}

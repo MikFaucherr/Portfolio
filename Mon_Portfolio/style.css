@@ -1,0 +1,84 @@
+.pagep
+{
+    display: grid;
+    grid-template-rows: 5% 95%;
+    grid-template-rows: 60px;
+
+}
+.section1
+{
+  display: grid;
+  grid-template-columns: 65% 35%; 
+  grid-template-rows: 1fr; 
+  grid-template-areas: 
+    ". .";
+}
+.section2
+{
+    background-image: url(../Mon_Portfolio/images/HD-wallpaper-laser-beams-ultra-artistic-abstract-purple-background-beams-laser.jpg);
+    background-size: 1536px 900px ;
+    font-size: 45px;
+    color: aliceblue;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    border: black 2px solid;
+
+}
+
+.section2 :hover
+{
+  animation: colochang 0.5s linear infinite ;
+  
+}
+
+@keyframes colochang
+{
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: rgb(157, 68, 179);
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+}
+
+
+
+.partienonvide
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  grid-template-areas: 
+    ". . . .";
+  font-size: 20px;
+  color: blueviolet;
+  font-size: 25px;
+
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:link {
+  color:blueviolet;
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+a:hover
+{
+  animation: colochang 0.5s linear infinite ;
+}
+
+
+

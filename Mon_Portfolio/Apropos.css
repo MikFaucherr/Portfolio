@@ -1,0 +1,51 @@
+
+.pagep{ display: grid; grid-template-rows: 5% 95%;
+    grid-template-rows: 60px;}
+
+
+@keyframes colochang
+{
+  10% {color: #0099ff;}
+  50% {color: #00ff00;}
+  75% {color: #ff3399;}
+  100% {color: #6666ff;}
+}
+
+.section1
+{background-IMAGE: url(../Mon_Portfolio/images/p_1001519688.webp) ;
+  display: grid;
+  grid-template-columns: 65% 35%; 
+  grid-template-rows: 1fr; 
+  grid-template-areas: 
+    ". .";
+}
+
+.partienonvide{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  grid-template-areas: 
+    ". . . .";
+  font-size: 25px;
+  color: rgb(102, 0, 255);
+}
+
+a {outline: none;text-decoration: none;}
+
+a:link {color: rgb(102, 0, 255);}
+
+a:visited {color: rgb(102, 0, 255);}
+
+a:hover{animation: colochang 0.5s linear infinite ;}
+
+
+.section2 {
+    background-image:url(../Mon_Portfolio/images/photo-1511447333015-45b65e60f6d5.jpg);
+    color: antiquewhite;
+    background-size: cover;
+    border: black 2px solid;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: larger;
+}
+.soustitre {color:rgb(38, 235, 209);}
+.titre {font-size: 70px;}
