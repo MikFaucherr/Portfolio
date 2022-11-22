@@ -14,8 +14,8 @@
     ". .";
 }
 .section2
-{
-    background-image: url(../Mon_Portfolio/images/HD-wallpaper-laser-beams-ultra-artistic-abstract-purple-background-beams-laser.jpg);
+{Background-image: url(/images/HD-wallpaper-laser-beams-ultra-artistic-abstract-purple-background-beams-laser.jpg);
+    
     background-size: 1536px 900px ;
     font-size: 45px;
     color: aliceblue;

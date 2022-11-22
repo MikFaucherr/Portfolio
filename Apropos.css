@@ -12,7 +12,7 @@
 }
 
 .section1
-{background-IMAGE: url(../Mon_Portfolio/images/p_1001519688.webp) ;
+{background-IMAGE: url(/images/p_1001519688.webp) ;
   display: grid;
   grid-template-columns: 65% 35%; 
   grid-template-rows: 1fr; 
@@ -40,7 +40,7 @@ a:hover{animation: colochang 0.5s linear infinite ;}
 
 
 .section2 {
-    background-image:url(../Mon_Portfolio/images/photo-1511447333015-45b65e60f6d5.jpg);
+    background-image:url(/images/photo-1511447333015-45b65e60f6d5.jpg);
     color: antiquewhite;
     background-size: cover;
     border: black 2px solid;

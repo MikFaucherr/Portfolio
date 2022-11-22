@@ -11,7 +11,7 @@
 }
 
 .section1
-{background-image: url(../Mon_Portfolio/images/HD-wallpaper-laser-beams-ultra-artistic-abstract-purple-background-beams-laser.jpg);
+{background-image: url(/images/HD-wallpaper-laser-beams-ultra-artistic-abstract-purple-background-beams-laser.jpg);
   display: grid;
   grid-template-columns: 65% 35%; 
   grid-template-rows: 1fr; 
@@ -44,7 +44,7 @@ a:hover{animation: colochang 0.5s linear infinite ;}
     border: rgb(28, 7, 94) solid 4px;
     border-radius: 15px;
     width: 725px;
-    background-image: url(../Mon_Portfolio/images/modern-futuristic-neon-purple-background-free-vector.webp);
+    background-image: url(/images/modern-futuristic-neon-purple-background-free-vector.webp);
     color: white;
   }
 
@@ -57,7 +57,7 @@ a:hover{animation: colochang 0.5s linear infinite ;}
     grid-template-areas: 
       ". ."
       ". ."; 
-      background-image: url(../Mon_Portfolio/images/p_1001519688.webp);
+      background-image: url(/images/p_1001519688.webp);
   }
 
   .section15
@@ -65,7 +65,7 @@ a:hover{animation: colochang 0.5s linear infinite ;}
     font-size: 45, px;
     text-align: center;
     font-family: 'Barlow Condensed', sans-serif;
-    background-image: url(../Mon_Portfolio/images/p_1001519688.webp);
+    background-image: url(/images/p_1001519688.webp);
   }
 
 #image2
